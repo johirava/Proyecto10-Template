@@ -1,0 +1,134 @@
+.contenedor {
+  max-width: 900px;
+  margin: auto; }
+  .contenedor nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 1px 11px black;
+    padding: 25px 0px; }
+    .contenedor nav h1 {
+      text-transform: uppercase;
+      font-family: "Droid Sans", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      display: inline-block; }
+    .contenedor nav ul {
+      display: inline-block;
+      float: right;
+      margin-top: 5px; }
+      .contenedor nav ul li {
+        display: inline-block;
+        margin-left: 20px;
+        font-family: "Droid Sans", sans-serif; }
+        .contenedor nav ul li a {
+          text-decoration: none;
+          color: #7A7A7A; }
+        .contenedor nav ul li a:hover {
+          color: #FE5025; }
+
+.fondonegro {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 500px; }
+  .fondonegro section {
+    background: url(../img/background.jpg);
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 3; }
+    .fondonegro section .ion-chevron-left {
+      font-size: 48px;
+      color: white;
+      position: relative;
+      top: 230px;
+      margin-left: 20px; }
+    .fondonegro section .texto {
+      text-align: center;
+      margin: 110px 0px; }
+      .fondonegro section .texto h2 {
+        font-family: "Droid Sans", sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 45px; }
+      .fondonegro section .texto a {
+        font-family: "Droid Sans", sans-serif;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+        background-color: #FE5025;
+        padding: 20px 30px;
+        border-radius: 6px; }
+    .fondonegro section .ion-chevron-right {
+      float: right;
+      font-size: 48px;
+      color: white;
+      position: relative;
+      top: -165px;
+      margin-right: 20px; }
+    .fondonegro section article {
+      text-align: center; }
+      .fondonegro section article span {
+        display: inline-block;
+        margin: 0px 5px; }
+      .fondonegro section article .ion-ios-circle-filled {
+        font-size: 18px;
+        color: grey; }
+      .fondonegro section article .ion-ios-circle-filled:last-child {
+        font-size: 18px;
+        color: white; }
+
+.servicios {
+  margin: 35px 135px; }
+  .servicios article {
+    font-family: "Droid Sans", sans-serif;
+    text-align: left; }
+    .servicios article h2 {
+      font-size: 28px;
+      font-weight: bold; }
+    .servicios article .raya {
+      width: 40px;
+      height: 2px;
+      background-color: #FE5025;
+      margin: 10px 0px; }
+    .servicios article p {
+      width: 350px;
+      font-size: 14px; }
+  .servicios .columnas {
+    width: 90%;
+    /*siempre tiene que tener ancho para poner margin auto*/
+    margin: auto; }
+    .servicios .columnas .uno, .servicios .columnas .dos {
+      display: inline-block;
+      width: 45%;
+      margin: 30px 20px; }
+      .servicios .columnas .uno article, .servicios .columnas .dos article {
+        margin: 10px 0px; }
+        .servicios .columnas .uno article .ion-arrow-right-a, .servicios .columnas .dos article .ion-arrow-right-a {
+          font-size: 30px;
+          text-align: left;
+          color: lightgrey; }
+        .servicios .columnas .uno article span, .servicios .columnas .dos article span {
+          position: relative;
+          top: -28px;
+          margin-right: 25px; }
+        .servicios .columnas .uno article div, .servicios .columnas .dos article div {
+          display: inline-block; }
+          .servicios .columnas .uno article div h4, .servicios .columnas .dos article div h4 {
+            font-family: "Droid Sans", sans-serif;
+            color: #FE5025;
+            font-weight: bold;
+            margin: 8px 0px; }
+          .servicios .columnas .uno article div p, .servicios .columnas .dos article div p {
+            font-size: 13px;
+            padding-bottom: 30px;
+            color: grey; }
+
+/*# sourceMappingURL=style.css.map */

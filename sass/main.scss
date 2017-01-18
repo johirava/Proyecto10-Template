@@ -1,0 +1,13 @@
+$fuente:'Droid Sans', sans-serif;
+$coral: #FE5025;
+
+%TitulosServices{
+	color: $coral;
+	font-size: 18px;
+	display:inline-block;
+	text-align: left;
+}
+
+@import '_header.scss';
+@import '_servicios.scss';
+

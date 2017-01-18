@@ -1,0 +1,71 @@
+.servicios{
+	margin: 35px 135px;
+
+	article{
+		font-family: $fuente;
+		text-align: left;
+
+		h2{
+		font-size: 28px;
+		font-weight: bold;
+		}
+
+		.raya{
+			width: 40px;
+			height: 2px;
+			background-color: $coral;
+			margin: 10px 0px;
+		}
+
+		p{
+			width: 350px;
+			font-size: 14px;
+		}
+	}
+
+	.columnas{
+		width: 90%; /*siempre tiene que tener ancho para poner margin auto*/
+		margin: auto;
+
+		.uno, .dos{
+			display: inline-block;
+			width: 45%;
+    		margin: 30px 20px;
+				
+    		article{
+    			margin:10px 0px;
+
+    			.ion-arrow-right-a{
+    				font-size: 30px;
+    				text-align: left;
+    				color: lightgrey;
+    			}
+
+    			span{
+    				position: relative;
+   					top: -28px;
+    				margin-right: 25px;
+    			}
+
+    			div{
+    				display: inline-block;
+
+    				h4{
+    				font-family: $fuente;
+    				color: $coral;
+    				font-weight: bold;
+    				margin: 8px 0px;
+	    			}
+
+	    			p{
+	    				font-size: 13px;
+	    				padding-bottom: 30px; 
+	    				color: grey;
+	    			}
+    			}
+    		}
+
+		}
+	}
+	
+} 
